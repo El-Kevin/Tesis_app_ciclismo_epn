@@ -4,6 +4,7 @@ import 'package:tesis_app_ciclismo_epn/searchtrips.dart';
 import 'package:tesis_app_ciclismo_epn/seguimiento_rutas/home/home_trips.dart';
 import 'package:tesis_app_ciclismo_epn/seguimiento_rutas/profile/post_routes.dart';
 import 'package:tesis_app_ciclismo_epn/seguimiento_rutas/profile/profile.dart';
+import 'package:tesis_app_ciclismo_epn/seguimiento_rutas/routes/maps.dart';
 class PlatziTrips extends StatefulWidget{
   @override
   State<StatefulWidget> createState() {
@@ -16,7 +17,7 @@ class _PlatziTrips extends State<PlatziTrips>{
   int indexTap = 0;
   final List<Widget> widgetsChildren = [
     HomeTrips(),
-    PostRoutes(),
+    MapPage(),
    PerfilWidget('Antho Chamba', 'imagenPerfil', 'Experto', 'tipoBicicleta')
   ];
 

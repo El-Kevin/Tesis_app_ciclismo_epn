@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1008603040928",
+    "project_id": "app-club-ciclismo-epn",
+    "storage_bucket": "app-club-ciclismo-epn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008603040928:android:c7709a48da122342e00dc5",
+        "android_client_info": {
+          "package_name": "com.example.tesis_app_ciclismo_epn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJGg2F0BcNPodVnjM2i1CruS7E446MafE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
